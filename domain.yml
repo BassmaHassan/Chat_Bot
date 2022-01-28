@@ -1,0 +1,93 @@
+
+intents:
+- greet
+- goodbye
+- Check Capital
+- Check Population
+- thanks
+slots:
+  group:
+    type: text
+entities:
+- group
+actions:
+- utter_greet
+- utter_country
+- utter_capital
+- utter_population
+- utter_goodbye
+- utter_thanks
+- utter_default
+templates:
+  utter_greet:
+  - text: "
+
+ BOT: 
+
+ Hey! How may I help you ? 
+
+ 
+
+ You:"
+  utter_country:
+  - text: "
+
+ BOT: 
+
+ Please choose the country:  
+
+ 1. USA  2. Greece 3. Sweden  4. Australia  5. Finland  6. Japan  7. Russia  8. India  
+
+ Enter the number of the country you want: 
+
+ 
+
+  You:"
+  utter_capital:
+  - text: "
+
+ BOT: 
+
+ The capital of this country is . 
+
+ 
+
+ You:"
+  utter_population:
+  - text: "
+
+ BOT: 
+
+ The population of this country is . 
+
+ 
+
+ You:"
+  utter_goodbye:
+  - text: "
+
+ BOT: 
+
+ Thank you for choosing us. Waiting for you again. 
+
+ 
+
+ You:"
+  utter_thanks:
+  - text: "
+
+ BOT: 
+
+ my pleasure 
+
+ 
+
+ You:"
+  utter_default:
+  - text: "
+
+ BOT: 
+
+ I'm sorry, I didn't quite understand that. Could you rephrase? 
+
+ You:"

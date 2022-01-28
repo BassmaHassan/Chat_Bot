@@ -1,0 +1,365 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "how far"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good night"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "appreciated"
+      },
+      {
+        "intent": "thanks",
+        "text": "gracias"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "USA",
+            "entity": "country"
+          }
+        ],
+        "text": "what is the capital of USA"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Russia",
+            "entity": "country"
+          }
+        ],
+        "text": "I need to know the capital of Russia"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "Japan",
+            "entity": "country"
+          }
+        ],
+        "text": "can you tell me the capital of Japan"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Finland",
+            "entity": "country"
+          }
+        ],
+        "text": "do you know the capital of Finland"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Australia",
+            "entity": "country"
+          }
+        ],
+        "text": "what is the main city of Australia"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Sweden",
+            "entity": "country"
+          }
+        ],
+        "text": "tell me the capital of Sweden"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 33,
+            "end": 39,
+            "value": "Greece",
+            "entity": "country"
+          }
+        ],
+        "text": "I wounder what is the capital of Greece"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "Egypt",
+            "entity": "country"
+          }
+        ],
+        "text": "I want to know the capital of Egypt"
+      },
+      {
+        "intent": "Check Capital",
+        "entities": [
+          {
+            "start": 31,
+            "end": 36,
+            "value": "India",
+            "entity": "country"
+          }
+        ],
+        "text": "please, tell me the capital of India"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "USA",
+            "entity": "country"
+          }
+        ],
+        "text": "what is the population of USA"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 33,
+            "end": 38,
+            "value": "Japan",
+            "entity": "country"
+          }
+        ],
+        "text": "I need to know the population of Japan"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 34,
+            "end": 39,
+            "value": "Egypt",
+            "entity": "country"
+          }
+        ],
+        "text": "can you tell me the population of Egypt"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 30,
+            "end": 36,
+            "value": "Sweden",
+            "entity": "country"
+          }
+        ],
+        "text": "do you know the population of Sweden"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Greece",
+            "entity": "country"
+          }
+        ],
+        "text": "How many people live in Greece"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "India",
+            "entity": "country"
+          }
+        ],
+        "text": "tell me the population of India"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "value": "Finland",
+            "entity": "country"
+          }
+        ],
+        "text": "I wounder what is the population of Finland"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 33,
+            "end": 42,
+            "value": "Australia",
+            "entity": "country"
+          }
+        ],
+        "text": "I want to know the population of Australia"
+      },
+      {
+        "intent": "Check Population",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Russia",
+            "entity": "country"
+          }
+        ],
+        "text": "please, tell me the population of Russia"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "1"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "2"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "3"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "4"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "5"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "6"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "7"
+      },
+      {
+        "intent": "choosing_country",
+        "text": "8"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

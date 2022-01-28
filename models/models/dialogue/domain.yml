@@ -1,0 +1,49 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_country
+- utter_capital
+- utter_population
+- utter_goodbye
+- utter_thanks
+- utter_default
+config:
+  store_entities_as_slots: true
+entities:
+- group
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- Check Capital:
+    use_entities: true
+- Check Population:
+    use_entities: true
+- thanks:
+    use_entities: true
+slots:
+  group:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_capital:
+  - text: "\nBOT:\nThe capital of this country is .\n\n\nYou:"
+  utter_country:
+  - text: "\nBOT:\nPlease choose the country:\n1. USA  2. Greece 3. Sweden  4. Australia\
+      \  5. Finland  6. Japan  7. Russia  8. India\nEnter the number of the country\
+      \ you want:\n\n\nYou:"
+  utter_default:
+  - text: "\nBOT:\nI'm sorry, I didn't quite understand that. Could you rephrase?\n\
+      You:"
+  utter_goodbye:
+  - text: "\nBOT:\nThank you for choosing us. Waiting for you again.\n\n\nYou:"
+  utter_greet:
+  - text: "\nBOT:\nHey! How may I help you ?\n\n\nYou:"
+  utter_population:
+  - text: "\nBOT:\nThe population of this country is .\n\n\nYou:"
+  utter_thanks:
+  - text: "\nBOT:\nmy pleasure\n\n\nYou:"
