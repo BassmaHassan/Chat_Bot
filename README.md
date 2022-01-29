@@ -5,9 +5,9 @@ This project is about creating a chatbot using Rasa open source framework for an
 
 The repo contains 2 notebooks:
 
-- `Chatbot` - a notebook updated made with Google Colaboratory.
+- `ChatBot` - a notebook updated made with Google Colaboratory.
 
-- `Chatbot_api` - a notebook updated and api-integrated made with Google Colaboratory.
+- `ChatBot_api` - a notebook updated and api-integrated made with Google Colaboratory.
 
 ## Files:
 
