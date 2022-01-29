@@ -7,7 +7,7 @@ The repo contains 2 notebooks:
 
 - `ChatBot` - a notebook updated made with Google Colaboratory.
 
-- `ChatBot_api` - a notebook updated and api-integrated made with Google Colaboratory.
+- `ChatBot_api` - a notebook updated and api-integrated made with Google Colaboratory (not working as expected).
 
 ## Files:
 
