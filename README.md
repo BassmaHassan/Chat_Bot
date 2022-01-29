@@ -11,8 +11,8 @@ The repo contains 2 notebooks:
 
 ## Files:
 
-- nlu_md : contains training data for Rasa nlu.
-- config.yml : NLU components of the pipeline.
-- stories_md : contains the stories, a story is path which defines a sequence of intents and actions.
-- domain.yml :contains all the intents,slots,entities,actions and templates.
+- `nlu_md` : contains training data for Rasa nlu.
+- `config.yml` : NLU components of the pipeline.
+- `stories_md` : contains the stories, a story is path which defines a sequence of intents and actions.
+- `domain.yml` :contains all the intents,slots,entities,actions and templates.
 
